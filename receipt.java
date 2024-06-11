@@ -7,7 +7,7 @@ public class receipt {
         System.out.println("GAISANO MALL \nNational HWY., KM4 \nBrgy.Luna, Surigao City\nSurigao Del Norte");
         // Strings - Special Characters
         /*
-         * The solution to avoid this problem, is to use the backslash escape character.
+          The solution to avoid this problem, is to use the backslash escape character.
          * 
          * The backslash (\) escape character turns special characters into string
          * characters:
