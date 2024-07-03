@@ -5,16 +5,7 @@ public class receipt {
     public static void main(String[] args) {
         /* Print out our Introduction of our Store/Company and Address */
         System.out.println("GAISANO MALL \nNational HWY., KM4 \nBrgy.Luna, Surigao City\nSurigao Del Norte");
-        // Strings - Special Characters
-        /*
-          The solution to avoid this problem, is to use the backslash escape character.
-         * 
-         * The backslash (\) escape character turns special characters into string
-         * characters:
-         * 
-         * Example
-         */
-        // https://1.bp.blogspot.com/-m21EMUPvpKE/XvYpu7ngBkI/AAAAAAAABiA/GXBxEvsLS6EBDz7Ye3hajCmaFdp2gjflwCLcBGAsYHQ/s640/escape%2Bsequences%2Bin%2Bjava.png
+      
 
         System.out.println("\n\n==========================================================================\n\n");
 
@@ -27,20 +18,7 @@ public class receipt {
          * available methods found in the Scanner class documentation. In our example,
          * we will use the nextLine() method, which is used to read Strings:
          */
-        /*
-         * Input Types
-         * In the example above, we used the nextLine() method, which is used to read
-         * Strings. To read other types, look at the comment below:
-         * 
-         * nextBoolean() Reads a boolean value from the user
-         * nextByte() Reads a byte value from the user
-         * nextDouble() Reads a double value from the user
-         * nextFloat() Reads a float value from the user
-         * nextInt() Reads a int value from the user
-         * nextLine() Reads a String value from the user
-         * nextLong() Reads a long value from the user
-         * nextShort() Reads a short value from the user
-         */
+     
         Scanner scan = new Scanner(System.in);
 
         String fname, lname, adrs;
@@ -167,4 +145,5 @@ public class receipt {
 
         System.out.println("\n\n==========================================================================\n\n");
     }
+    
 }
