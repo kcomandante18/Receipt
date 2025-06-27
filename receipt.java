@@ -90,7 +90,7 @@ public class receipt {
 
         /* Sum the res1,res2,res3,res4 and it will show in variable name result */
         result = res1 + res2 + res3 + res4;
-        System.out.println("\n\n==========================================================================\n\n");
+        System.out.println("\n\n===========================================================================\n\n");
 
         /*
          * Print out the result on what product did the customer and what is the price
@@ -144,5 +144,5 @@ public class receipt {
 
         System.out.println("\n\n==========================================================================\n\n");
     }
-    
+
 }
