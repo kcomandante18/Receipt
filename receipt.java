@@ -21,7 +21,6 @@ public class receipt {
         Scanner scan = new Scanner(System.in);
 
         String fname, lname, adrs;
-
         /* Input the Product name here!. */
         System.out.print("First Name : ");
         fname = scan.nextLine();
