@@ -10,8 +10,8 @@ public class receipt {
 
         /*
          * The Scanner class is used to get user input, and it is found in the java.util
-         * package. import java.util.Scanner;
-         */
+         * package. import java.util.Scanner; */
+         
         /*
          * To use the Scanner class, create an object of the class and use any of the
          * available methods found in the Scanner class documentation. In our example,
