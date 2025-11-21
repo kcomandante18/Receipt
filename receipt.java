@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class receipt {
 
-    public static void main(String[] args) {
-        /* Print out our Introduction of our Store/Company and Address */
+    public static void main(String[] args) {      /* Print out our Introduction of our Store/Company and Address */
+     
         System.out.println("GAISANO MALL \nNational HWY., KM4 \nBrgy.Luna, Surigao City\nSurigao Del Norte");
       
         System.out.println("\n\n==========================================================================\n\n");
@@ -17,7 +17,8 @@ public class receipt {
          * available methods found in the Scanner class documentation. In our example,
          * we will use the nextLine() method, which is used to read Strings:
          */
-     
+
+        
         Scanner scan = new Scanner(System.in);
 
         String fname, lname, adrs;
@@ -47,7 +48,7 @@ public class receipt {
         pname3 = "Bread";
         pname4 = "Chocolate";
 
-        System.out.println("\n\n==========================================================================\n\n");
+        System.out.println("\n\n=========================================================================\n\n");
 
         /* Input How manay Product Quantity and What is the Product Price */
         System.out.print("1. Product QTY of " + pname1 + " : ");
@@ -55,21 +56,21 @@ public class receipt {
         System.out.print("1. Product Price : ");
         num1 = scan.nextDouble();
 
-        System.out.println("\n-----------------------------------------------------\n");
+        System.out.println("\n----------------------------------------------------\n");
 
         System.out.print("2. Product QTY of " + pname2 + " : ");
         pduct2 = scan.nextInt();
         System.out.print("2. Product Price : ");
         num2 = scan.nextDouble();
 
-        System.out.println("\n-----------------------------------------------------\n");
+        System.out.println("\n----------------------------------------------------\n");
 
         System.out.print("3. Product QTY of " + pname3 + " : ");
         pduct3 = scan.nextInt();
         System.out.print("3. Product Price : ");
         num3 = scan.nextDouble();
 
-        System.out.println("\n-----------------------------------------------------\n");
+        System.out.println("\n----------------------------------------------------\n");
 
         System.out.print("4. Product QTY of " + pname4 + " : ");
         pduct4 = scan.nextInt();
@@ -89,7 +90,7 @@ public class receipt {
 
         /* Sum the res1,res2,res3,res4 and it will show in variable name result */
         result = res1 + res2 + res3 + res4;
-        System.out.println("\n\n===========================================================================\n\n");
+        System.out.println("\n\n==========================================================================\n\n");
 
         /*
          * Print out the result on what product did the customer and what is the price
@@ -101,7 +102,7 @@ public class receipt {
         System.out.println(pname3 + "\t\t\t\t |" + num3 + p + "\t\t\t\t |" + pduct3 + " QTY" + "\t\t\t\t |" + res3 + p);
         System.out.println(pname4 + "\t\t\t |" + num4 + p + "\t\t\t\t |" + pduct4 + " QTY" + "\t\t\t\t |" + res4 + p);
 
-        System.out.println("\n\n==========================================================================\n\n");
+        System.out.println("\n\n=========================================================================\n\n");
 
         /*
          * This where we input VAT% and calculate on how much the customer purchase then
@@ -116,7 +117,7 @@ public class receipt {
         /* Casting my variable from double to float */
         float vatrf = (float) vatr, vattotalf = (float) vattotal;
 
-        System.out.println("\n\n==========================================================================\n\n");
+        System.out.println("\n\n=========================================================================\n\n");
 
         /*
          * This is were all the Total Ammount without VAT, VAT and the will be show and
@@ -137,12 +138,13 @@ public class receipt {
 
         System.out.println("\nYour Change is :\t\t\t\t\t" + change + p + "\n");
 
-        System.out.println("\n==========================================================================\n\n");
+        System.out.println("\n=========================================================================\n\n");
 
         System.out.println("Thank You & Come Again!! Mr/Mrs. " + lname + " from " + adrs);
 
-        System.out.println("\n\n==========================================================================\n\n");
+        System.out.println("\n\n========================================================================\n\n");
         
     }
 
 }
+
