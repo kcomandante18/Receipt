@@ -119,8 +119,8 @@ public class receipt {
 
         /*
          * This is were all the Total Ammount without VAT, VAT and the will be show and
-         * Total price of all he purchase plus VAT
-         */
+         * Total price of all he purchase plus VAT */
+        
         System.out.println("Your EX VAT " + vats + " :\t\t\t\t\t" + result + p + "\n");
 
         System.out.println("Your Sales VAT " + vats + "% :\t\t\t\t" + vatrf + p + "\n");
@@ -142,6 +142,8 @@ public class receipt {
 
         System.out.println("\n\n========================================================================\n\n");
         
+        
     }
 
 }
+
