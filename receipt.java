@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class receipt {
 
-    public static void main(String[] args) {      /* Print out our Introduction of our Store/Company and Address */
+    public static void main(String[] args) {  
      
         System.out.println("GAISANO MALL \nNational HWY., KM4 \nBrgy.Luna, Surigao City\nSurigao Del Norte");
         System.out.println("\n\n==========================================================================\n\n");
@@ -145,4 +145,3 @@ public class receipt {
     }
 
 }
-
