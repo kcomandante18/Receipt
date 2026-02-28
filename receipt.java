@@ -16,7 +16,6 @@ public class receipt {
          * available methods found in the Scanner class documentation. In our example,
          * we will use the nextLine() method, which is used to read Strings:
          */
-        
         Scanner scan = new Scanner(System.in);
 
         String fname, lname, adrs;
@@ -140,4 +139,5 @@ public class receipt {
         
     }
 }
+
 
