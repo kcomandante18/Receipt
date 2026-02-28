@@ -32,10 +32,6 @@ public class receipt {
 
         System.out.println("Your Receipt Mr/Mrs. : " + fname + " " + lname + "\nAddress : " + adrs);
 
-        /*
-         * My String, int, and double variable are here mostly for obtaining Data from
-         * the user input.
-         */
         String pname1, pname2, pname3, pname4, p = " Pesos";
         int pduct1, pduct2, pduct3, pduct4;
         double num1, num2, num3, num4;
@@ -145,3 +141,4 @@ public class receipt {
     }
 
 }
+
