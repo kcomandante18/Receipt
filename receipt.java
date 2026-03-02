@@ -26,7 +26,7 @@ public class receipt {
         int pduct1, pduct2, pduct3, pduct4;
         double num1, num2, num3, num4;
 
-        /* 4 Product name here! */
+        /* 4 Product name here. */
         pname1 = "Milk";
         pname2 = "Biscuit";
         pname3 = "Bread";
@@ -130,5 +130,6 @@ public class receipt {
         
     }
 }
+
 
 
