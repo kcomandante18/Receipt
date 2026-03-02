@@ -7,15 +7,6 @@ public class receipt {
         System.out.println("GAISANO MALL \nNational HWY., KM4 \nBrgy.Luna, Surigao City\nSurigao Del Norte");
         System.out.println("\n\n==========================================================================\n\n");
 
-        /*
-         * The Scanner class is used to get user input, and it is found in the java.util
-         * package. import java.util.Scanner; */
-         
-        /*
-         * To use the Scanner class, create an object of the class and use any of the
-         * available methods found in the Scanner class documentation. In our example,
-         * we will use the nextLine() method, which is used to read Strings:
-         */
         Scanner scan = new Scanner(System.in);
 
         String fname, lname, adrs;
@@ -139,3 +130,4 @@ public class receipt {
         
     }
 }
+
