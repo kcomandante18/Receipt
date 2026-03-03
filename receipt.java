@@ -66,6 +66,7 @@ public class receipt {
         float num1i = (float) num1, num2i = (float) num2, num3i = (float) num3, num4i = (float) num4;
         float res1, res2, res3, res4, result;
 
+        
         /* Price Multiply by Quantity */
         res1 = pduct1i * num1i;
         res2 = pduct2i * num2i;
@@ -130,3 +131,4 @@ public class receipt {
         
     }
 }
+
