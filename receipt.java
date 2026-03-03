@@ -128,7 +128,7 @@ public class receipt {
         System.out.println("Thank You & Come Again!! Mr/Mrs. " + lname + " from " + adrs);
 
         System.out.println("\n\n========================================================================\n\n");
+
         
     }
 }
-
