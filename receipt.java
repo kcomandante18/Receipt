@@ -8,7 +8,6 @@ public class receipt {
         System.out.println("\n\n==========================================================================\n\n");
 
         Scanner scan = new Scanner(System.in);
-
         String fname, lname, adrs;
       
         System.out.print("First Name : ");
