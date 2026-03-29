@@ -84,7 +84,6 @@ public class receipt {
         System.out.println(pname4 + "\t\t\t |" + num4 + p + "\t\t\t\t |" + pduct4 + " QTY" + "\t\t\t\t |" + res4 + p);
 
         System.out.println("\n\n=========================================================================\n\n");
-
         /*
          * This where we input VAT% and calculate on how much the customer purchase then
          * multyply by VAT%
