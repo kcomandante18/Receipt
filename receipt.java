@@ -100,7 +100,6 @@ public class receipt {
         float vatrf = (float) vatr, vattotalf = (float) vattotal;
 
         System.out.println("\n\n=========================================================================\n\n");
-
         /*
          * This is were all the Total Ammount without VAT, VAT and the will be show and
          * Total price of all he purchase plus VAT */
