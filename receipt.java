@@ -13,7 +13,7 @@ public class receipt {
         System.out.print("Last Name : ");
         lname = scan.nextLine(); 
         System.out.print("Address : "); 
-        adrs = scan.nextLine();
+        adrs = scan.nextLine(); 
 
         System.out.println("\n\n==========================================================================\n\n");
 
