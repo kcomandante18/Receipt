@@ -59,7 +59,7 @@ public class receipt {
 
         /* Casting my variable from double and int to float */
         float pduct1i = (float) pduct1, pduct2i = (float) pduct1, pduct3i = (float) pduct1, pduct4i = (float) pduct1;
-        float num1i = (float) num1, num2i = (float) num2, num3i = (float) num3, num4i = (float) num4;
+        float num1i = (float) num1, num2i = (float) num2, num3i = (float) num3, num4i = (float) num4; 
         float res1, res2, res3, res4, result;
 
         
