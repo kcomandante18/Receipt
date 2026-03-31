@@ -32,7 +32,7 @@ public class receipt {
 
         /* Input How manay Product Quantity and What is the Product Price */
         System.out.print("1. Product QTY of " + pname1 + " : ");
-        pduct1 = scan.nextInt();
+        pduct1 = scan.nextInt(); 
         System.out.print("1. Product Price : "); 
         num1 = scan.nextDouble();
 
