@@ -19,7 +19,7 @@ public class receipt {
 
         System.out.println("Your Receipt Mr/Mrs. : " + fname + " " + lname + "\nAddress : " + adrs);
 
-        String pname1, pname2, pname3, pname4, p = " Pesos"; 
+        String pname1, pname2, pname3, pname4, p = " Pesos";  
         int pduct1, pduct2, pduct3, pduct4; 
         double num1, num2, num3, num4;
         /* 4 Product name here. */
