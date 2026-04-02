@@ -36,7 +36,7 @@ public class receipt {
         System.out.print("1. Product Price : "); 
         num1 = scan.nextDouble();
 
-        System.out.println("\n----------------------------------------------------\n");
+        System.out.println("\n----------------------------------------------------\n"); 
 
         System.out.print("2. Product QTY of " + pname2 + " : ");
         pduct2 = scan.nextInt();
