@@ -9,7 +9,7 @@ public class receipt {
         String fname, lname, adrs;  
         
         System.out.print("First Name : ");     
-        fname = scan.nextLine(); 
+        fname = scan.nextLine();  
         System.out.print("Last Name : ");   
         lname = scan.nextLine();  
         System.out.print("Address : ");  
