@@ -5,7 +5,7 @@ public class receipt {
         System.out.println("GAISANO MALL \nNational HWY., KM4 \nBrgy.Luna, Surigao City\nSurigao Del Norte");    
         System.out.println("\n\n==========================================================================\n\n");        
   
-        Scanner scan = new Scanner(System.in);  
+        Scanner scan = new Scanner(System.in);   
         String fname, lname, adrs;  
         
         System.out.print("First Name : ");     
