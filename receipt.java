@@ -4,7 +4,7 @@ public class receipt {
     public static void main(String[] args) {       
         System.out.println("GAISANO MALL \nNational HWY., KM4 \nBrgy.Luna, Surigao City\nSurigao Del Norte");       
         System.out.println("\n\n==========================================================================\n\n");        
-   
+    
         Scanner scan = new Scanner(System.in);    
         String fname, lname, adrs;  
            
