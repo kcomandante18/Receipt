@@ -8,7 +8,7 @@ public class receipt {
         Scanner scan = new Scanner(System.in);    
         String fname, lname, adrs;  
            
-        System.out.print("First Name : ");       
+        System.out.print("First Name : ");        
         fname = scan.nextLine();  
         System.out.print("Last Name : ");     
         lname = scan.nextLine();  
