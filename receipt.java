@@ -14,7 +14,7 @@ public class receipt {
         lname = scan.nextLine();   
         System.out.print("Address : ");     
         adrs = scan.nextLine();   
-
+ 
         System.out.println("\n\n==========================================================================\n\n");
 
         System.out.println("Your Receipt Mr/Mrs. : " + fname + " " + lname + "\nAddress : " + adrs);
